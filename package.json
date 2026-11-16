@@ -1,0 +1,17 @@
+{
+  "name": "car-dealership",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CS 341 - Used Car Dealership Management System",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
